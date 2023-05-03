@@ -1,0 +1,52 @@
+.phone-book {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .phone-book h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .phone-book ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .phone-book li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .phone-book li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .phone-book input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .phone-book button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
